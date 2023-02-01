@@ -1,0 +1,743 @@
+/* font face add */
+/*
+ * Legal Disclaimer
+ *
+ * These web fonts are licensed exclusively for use on the following:
+ * All domains belonging to Petco
+ *
+ * It is strictly forbidden to download or use these fonts on any other website domain or media.
+ *
+ * While the @font-face statements below may be modified by the client, this
+ * disclaimer may not be removed.
+ *
+ * Lineto.com, 2020
+ */
+
+/*------ Font import start ------*/
+@font-face {
+  font-family: PetcoCircularTT-Regular;
+  src: url(assets/fonts/PetcoCircularTT-Regular.woff2) format("woff2"),
+    url(assets/fonts/PetcoCircularTT-Regular.woff) format("woff");
+}
+
+@font-face {
+  font-family: PetcoCircularTT-Bold;
+  src: url(assets/fonts/PetcoCircularTT-Bold.woff2) format("woff2"),
+    url(/assets/fonts/PetcoCircularTT-Bold.woff) format("woff");
+}
+/*------ Font import end ------*/
+/*------ Common style start (1440px)------*/
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "PetcoCircularTT-Regular", arial !important;
+}
+.citrusStellaChewys_desktop__hide {
+  display: none;
+}
+.citrusStellaChewys_mobile__hide {
+  display: block;
+}
+.citrusStellaChewys__wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.citrusStellaChewys__wrapper a {
+  text-decoration: none;
+}
+.citrusStellaChewys__sectionTitle {
+  margin: 15px 0px 25px 0px;
+  font-family: "PetcoCircularTT-Bold", arial !important;
+  font-weight: 700;
+  font-size: 25px;
+  text-align: center;
+  color: #000000;
+}
+.citrusStellaChewys__wrapper img {
+  max-width: 100%;
+}
+/*------- Common style end (1440px)------*/
+/*------- Slider style start (1440px)------*/
+.citrusStellaChewys_carousel {
+  width: 100%;
+  position: relative;
+  display: none;
+  justify-content: flex-start;
+  overflow: hidden;
+}
+.citrusStellaChewys_carousel,
+.citrusStellaChewys_carousel-inner,
+.citrusStellaChewys_carousel-item {
+  height: 300px;
+  object-fit: cover;
+}
+.citrusStellaChewys_carousel
+  .citrusStellaChewys_carousel-inner
+  .citrusStellaChewys_carousel-item {
+  justify-content: flex-start;
+  flex: 1;
+}
+.citrusStellaChewys_carousel-inner {
+  display: flex;
+  transition: all ease 0.5s;
+}
+.citrusStellaChewys_carousel-item {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+.citrusStellaChewys_carousel-indicators {
+  position: absolute;
+  bottom: 0;
+  left: calc(100% / 2 - 52px);
+  text-align: center;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 5px 5px 0 0;
+  padding: 10px 10px 5px;
+}
+.citrusStellaChewys_carousel-indicators span {
+  display: inline-block;
+  border: 2px solid #09205c;
+  padding: 7px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin: 0 5px;
+}
+.citrusStellaChewys_carousel-indicators span.active {
+  background-color: #09205c;
+}
+/*------- Slider style end (1440px)------*/
+/*------- Slider banner start (1440px)------*/
+#citrusStellaChewys__slider1,
+#citrusStellaChewys__slider2,
+#citrusStellaChewys__slider3 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 300px;
+  border: 1px solid rgba(102, 51, 153, 0);
+  display: grid;
+  align-items: center;
+}
+#citrusStellaChewys__slider1 {
+  background-image: url(../assets/images/stella-chews-POV-Desktop.png);
+}
+#citrusStellaChewys__slider2 {
+  background-image: url(../assets/images/stella-chews-POV02-Desktop.png);
+}
+#citrusStellaChewys__slider3 {
+  background-image: url(../assets/images/stella-chews-POV03-Desktop.png);
+}
+.citrusStellaChewys__sliderRow {
+  width: 90%;
+  max-width: 1440px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+}
+.citrusStellaChewys__sliderTitle h1 {
+  margin: 0 0 18px 0;
+  font-family: "PetcoCircularTT-Bold", arial !important;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 41px;
+  text-transform: uppercase;
+  color: #c01823;
+}
+#citrusStellaChewys__slider2 .citrusStellaChewys__sliderTitle h1,
+#citrusStellaChewys__slider3 .citrusStellaChewys__sliderTitle h1 {
+  margin: 0 0 10px;
+  color: #fff;
+}
+#citrusStellaChewys__slider2 .citrusStellaChewys__sliderTitle p,
+#citrusStellaChewys__slider3 .citrusStellaChewys__sliderTitle p {
+  margin: 0 0 15px;
+  font-family: "PetcoCircularTT-Regular", arial !important;
+  color: #fff;
+}
+#citrusStellaChewys__slider2 .citrusStellaChewys__sliderTitle button,
+#citrusStellaChewys__slider3 .citrusStellaChewys__sliderTitle button {
+  background: #fff;
+  color: #09205c;
+  margin-right: 20px;
+  font-weight: bold;
+}
+#citrusStellaChewys__slider2 .logo {
+  position: relative;
+  margin-top: -14%;
+  padding-right: 5%;
+}
+#citrusStellaChewys__slider3 .logo {
+  position: relative;
+  margin-top: -14%;
+  padding-right: 10%;
+}
+#citrusStellaChewys__slider2 .logo img {
+  width: 100%;
+  max-width: 324px;
+}
+#citrusStellaChewys__slider3 .logo img {
+  width: 100%;
+  max-width: 241px;
+}
+.citrusStellaChewys__sliderTitle button,
+#citrusStellaChewys__RawFood button,
+.citrusStellaChewys__CalltoActionTextContainer button,
+.citrusStellaChewys--productCommonCTA button {
+  font-family: "PetcoCircularTT-Bold", arial !important;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+  background-color: #001952;
+  border: none;
+  border-radius: 5px;
+  padding: 22px 60px 18px;
+  cursor: pointer;
+}
+.citrusStellaChewys__sliderTitle a{
+  display: inline;
+}
+.citrusStellaChewys--productCommonCTA {
+  margin: auto;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+.splide__arrow {
+  -ms-flex-align: center;
+  -webkit-box-align: center;
+  align-items: center;
+  background: #ffffff;
+  border: 1px solid #122359;
+  border-radius: 50%;
+  cursor: pointer;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  height: 2.2em;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  opacity: 1;
+  padding: 0;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 2.2em;
+  z-index: 1;
+}
+/*------- Slider style end (1440px)------*/
+/*------- Product style start (1440px)------*/
+.citrusStellaChewys-wrapper {
+  width: 100%;
+  max-width: 1273px;
+  margin: auto;
+  overflow-x: auto;
+}
+.citrusStellaChewysTabId {
+  width: 1273px;
+  overflow-x: auto;
+}
+.citrusStellaChewys__tab-area {
+  overflow: hidden;
+  padding-top: 35px;
+  padding-bottom: 26px;
+}
+
+.citrusStellaChewys__tab-container {
+  max-width: 1273px;
+  width: 100%;
+  margin: 0 auto;
+}
+.splide__pagination {
+  display: none;
+}
+.citrusStellaChewys__dogProduct,
+.citrusStellaChewys__catProduct {
+  max-width: 195px;
+  width: 100% !important;
+  margin: 0px 9px;
+  display: none;
+}
+.citrusStellaChewys-tab-cardImg img {
+  max-width: 100%;
+  min-height: 175px;
+}
+.citrusStellaChewys-tab-card > a {
+  text-decoration: none;
+  color: #000;
+}
+.citrusStellaChewys-tab-card p {
+  font-family: "PetcoCircularTT-Regular", arial !important;
+  color: #333333;
+  font-size: 13px;
+  text-align: left;
+  margin: 20px 0 10px;
+  text-decoration: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  max-height: 4em; 
+}
+a.citrusStellaChewys__productCTA {
+  text-decoration: underline;
+  font-family: "PetcoCircularTT-Bold", arial !important;
+  color: #001952;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: bold;
+}
+/***** best seller section ****/
+.citrusStellaChewys__dogProducts,
+.citrusStellaChewys__Products {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.citrusStellaChewys-tab-cardImg {
+  padding: 0 10px;
+  margin: auto;
+}
+.citrusTabShow {
+  display: block;
+}
+.citrusStellaChewys__tab_item {
+  text-transform: uppercase;
+  padding: 12px 20px;
+  margin: 0px 10px;
+  font-size: 14px;
+  text-decoration: none;
+  background-color: #ffffff;
+  border: none;
+  cursor: pointer;
+  color: #6e6b6b;
+  font-family: "PetcoCircularTT-Regular", arial !important;
+  font-weight: 700;
+  line-height: 1.3;
+  text-align: center;
+}
+button {
+  font-family: "PetcoCircularTT-Regular", arial !important;
+}
+.citrusStellaChewys__tab_item.citrusStellaChewys__Dog-active_tab,
+.citrusStellaChewys__tab_item.citrusStellaChewys__cat-active_tab {
+  color: #001952;
+  border-bottom: 8px solid #001952;
+  margin-top: 10px;
+  border-radius: 0;
+}
+.citrusStellaChewysTabId {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #021b4e;
+}
+.citrusStellaChewys_hide_arrow .splide__arrows {
+  display: none;
+}
+.citrusStellaChewys-section__tab-content .splide__arrow:disabled {
+  opacity: 0;
+}
+/*------- Product style end (1440px)------*/
+/*------- Raw Food style start (1440px)------*/
+#citrusStellaChewys__RawFood {
+  margin-top: 27px;
+  text-align: center;
+}
+.citrusStellaChewys__RawFoodContainer {
+  width: 1384px;
+  max-width: 100%;
+  margin: auto;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  overflow: auto;
+  text-align: center;
+}
+.citrusStellaChewys__category {
+  width: 1384px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  column-gap: 20px;
+  text-align: center;
+}
+.citrusStellaChewys__card {
+  width: 204px;
+  text-align: center;
+}
+.citrusStellaChewys__card_img{
+  min-height: 204px;
+}
+.citrusStellaChewys__card-title h3 {
+  margin: 20px 0;
+  font-family: "PetcoCircularTT-Bold", arial !important;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+}
+/*------- Raw Food style end (1440px)------*/
+/*------- Video style start (1440px)------*/
+.citrusStellaChewys__videoSection {
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+.citrusStellaChewys__VideoContainer {
+  width: 1100px;
+  max-width: 95%;
+  margin: auto;
+  padding-top: 40px;
+}
+.citrusStellaChewys__VideoRow {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 20px;
+}
+.citrusStellaChewys__VideoCard {
+  background-color: rgba(192, 24, 35, 0.15);
+  text-align: center;
+  padding-bottom: 30px;
+  display: grid;
+  flex-direction: column;
+}
+.citrusStellaChewys__VideoCard .iframe iframe {
+  width: 100%;
+  height: 315px;
+}
+.citrusStellaChewys__videoSection__sectionTitle_spacing{
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+.citrusStellaChewys__cardBody h3 {
+  font-family: "PetcoCircularTT-Bold", arial !important;
+  font-weight: bold;
+  font-size: 20px;
+  color: #000000;
+  margin: 30px 0 20px;
+}
+.citrusStellaChewys__cardBody p {
+  font-family: "PetcoCircularTT-regular", arial !important;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+  width: 80%;
+  margin: 0 auto;
+  padding: 0;
+}
+/*------- Video style start (1440px)------*/
+/*------- CalltoAction style start (1440px)------*/
+#citrusStellaChewys__CalltoAction {
+  margin-bottom: 30px;
+  background: url(../assets/images/stella-chews-FooterBackground.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.citrusStellaChewys__CalltoActionRow {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+}
+.citrusStellaChewys__CalltoActionLeft {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 0;
+}
+.citrusStellaChewys__CalltoActionLeft img {
+  width: 100%;
+  max-width: 400px;
+}
+.citrusStellaChewys__in-imageCopy {
+  margin: 0;
+  padding: 0;
+  font-family: "PetcoCircularTT-Regular", arial !important;
+  font-size: 18px;
+  line-height: 20px;
+  color: #fff;
+}
+.citrusStellaChewys__CalltoActionTextContainer {
+  text-align: center;
+}
+.citrusStellaChewys__CalltoActionTextContainer p {
+  width: 90%;
+  max-width: 495px;
+  margin: 20px auto;
+  font-family: "PetcoCircularTT-Regular", arial !important;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000;
+}
+/*------- CalltoAction style end (1440px) ------*/
+/*------- responsive styling ------ */
+@media all and (min-width: 1440px) {
+  .citrusStellaChewys__RawFoodContainer {
+    width: 1384px;
+    max-width: 100%;
+    margin: auto;
+  }
+}
+@media all and (min-width: 1201px) and (max-width: 1350px) {
+  #citrusStellaChewys__slider1 .logo,
+  #citrusStellaChewys__slider2 .logo,
+  #citrusStellaChewys__slider3 .logo {
+    width: 270px;
+  }
+}
+@media all and (max-width: 1301px) {
+  .citrusStellaChewys__tab-container {
+    width: 90%;
+  }
+  .citrusStellaChewys__dogProduct,
+  .citrusStellaChewys__catProduct {
+    max-width: 210px;
+  }
+}
+@media all and (max-width: 1280px) {
+  .citrusStellaChewys__tab_item {
+    width: 72%;
+  }
+}
+@media all and (min-width: 769px) and (max-width: 1200px) {
+  .citrusStellaChewys_desktop__hide {
+    display: block;
+  }
+  .citrusStellaChewys__sliderTitle h1 {
+    margin: 0 0 10px 0;
+    font-size: 32px;
+    line-height: 30px;
+  }
+  #citrusStellaChewys__slider1 .logo,
+  #citrusStellaChewys__slider2 .logo,
+  #citrusStellaChewys__slider3 .logo {
+    width: 180px;
+  }
+  #citrusStellaChewys__slider3 .logo {
+    margin-top: -20%;
+    padding-right: 0%;
+  }
+  #citrusStellaChewys__slider2 .logo {
+    margin-top: -19%;
+    padding-right: 0%;
+  }
+  .citrusStellaChewys__sectionTitle.citrusStellaChewys_desktop__hide {
+    display: none;
+  }
+}
+@media all and (max-width: 768px) {
+  .citrusStellaChewys_desktop__hide {
+    display: block;
+  }
+  .citrusStellaChewys_mobile__hide {
+    display: none;
+  }
+  /*------- Slider start (768px) ------*/
+  #citrusStellaChewys__slider1 {
+    background-image: url(../assets/images/stella-chews-POV-Mobile.png);
+    background-position: 0;
+  }
+  #citrusStellaChewys__slider2 {
+    background-image: url(../assets/images/stella-chews-POV02-Mobile.png);
+    background-position-x: right;
+  }
+  #citrusStellaChewys__slider3 {
+    background-image: url(../assets/images/stella-chews-POV03-Mobile.png);
+    background-position-x: right;
+  }
+  .citrusStellaChewys__sliderRow {
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column-reverse;
+  }
+  #citrusStellaChewys__slider2 .citrusStellaChewys__sliderTitle h1,
+  #citrusStellaChewys__slider3 .citrusStellaChewys__sliderTitle h1 {
+    color: #c01823;
+    font-size: 20px;
+    line-height: 22px;
+    margin-top: 20px;
+  }
+  #citrusStellaChewys__slider2 .citrusStellaChewys__sliderTitle p,
+  #citrusStellaChewys__slider3 .citrusStellaChewys__sliderTitle p {
+    color: #c01823;
+    font-size: 14px;
+    line-height: 16px;
+  }
+  #citrusStellaChewys__slider1 .logo {
+    width: 200px;
+    position: relative;
+    top: -46px;
+  }
+  .citrusStellaChewys__sliderTitle button,
+  #citrusStellaChewys__slider2 .citrusStellaChewys__sliderTitle button,
+  #citrusStellaChewys__slider3 .citrusStellaChewys__sliderTitle button,
+  #citrusStellaChewys__RawFood button,
+  .citrusStellaChewys__CalltoActionTextContainer button,
+  .citrusStellaChewys--productCommonCTA button {
+    font-size: 16px;
+    color: #001952;
+    text-transform: capitalize;
+    background: none;
+    padding: 0;
+    text-decoration: underline;
+  }
+  .citrusStellaChewys__sliderTitle a{
+    display: inline-flex!important;
+  }
+  /*------- Slider end (768px)------*/
+  /*------- Product start (768px)------*/
+  .citrusStellaChewys__tab_item {
+    width: 100%;
+  }
+  .citrusStellaChewys__dogProduct,
+  .citrusStellaChewys__catProduct {
+    max-width: 235px;
+  }
+  .splide__arrows {
+    display: none;
+  }
+  a.citrusStellaChewys__productCTA {
+    text-decoration: underline !important;
+  }
+  .citrusStellaChewys__tab-area {
+    padding-bottom: 0;
+  }
+  /*------- Product end (768px)------*/  
+  /*------- Video start (768px)------*/
+  .citrusStellaChewys__videoSection {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .citrusStellaChewys__VideoContainer {
+    max-width: 100%;
+  }
+  .citrusStellaChewys__VideoContainer {
+    padding-top: 0;
+    width: 700px;
+    overflow: auto;
+  }
+  .citrusStellaChewys__VideoRow {
+    width: 624px;
+    margin: 0 20px;
+  }
+  .citrusStellaChewys__VideoCard {
+    padding-bottom: 0;
+  }
+  .citrusStellaChewys__VideoCard .iframe iframe {
+    height: 217px;
+  }
+  .citrusStellaChewys__cardBody p {
+    width: 90%;
+    padding-bottom: 30px;
+  }
+  .citrusStellaChewys__VideoCard .iframe.order1 {
+    display: grid;
+    order: 2;
+  }
+  .citrusStellaChewys__VideoCard .citrusStellaChewys__cardBody.order2 {
+    display: grid;
+    order: 1;
+  }
+  .citrusStellaChewys__videoSection > .citrusStellaChewys__sectionTitle {
+    padding: 0 20px 40px;
+  }
+  .citrusStellaChewys__sectionTitle {
+    padding: 0 0px;
+    font-size: 20px;
+    line-height: 20px;
+  }
+  /*------- Video start (768px)------*/
+  /*------- CalltoAction start (768px)------*/
+  #citrusStellaChewys__CalltoAction {
+    background: #f4ede3;
+  }
+  .citrusStellaChewys__CalltoActionRow {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .citrusStellaChewys__CalltoActionRow .order1 {
+    order: 2;
+  }
+  .citrusStellaChewys__CalltoActionRow .order2 {
+    order: 1;
+    margin: 40px 0 30px;
+  }
+  .citrusStellaChewys__CalltoActionLeft {
+    background: url(../assets/images/stella-chews-FooterLeftBackground.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+  }
+  .citrusStellaChewys__in-imageCopy {
+    font-size: 14px;
+    line-height: 15px;
+  }
+  /*------- CalltoAction end (768px)------*/
+}
+
+@media all and (max-width: 575px) {
+  .citrusStellaChewys__sliderTitle h1 {
+    margin: 0 0 10px 0;
+    font-size: 28px;
+    line-height: 26px;
+  }
+  #citrusStellaChewys__slider1 .logo {
+    width: 160px;
+    position: relative;
+    top: -40px;
+  }
+  #citrusStellaChewys__slider2 .logo img,
+  #citrusStellaChewys__slider3 .logo img {
+    width: 100%;
+    max-width: 194px;
+  }
+  .citrusStellaChewys__sliderTitle {
+    width: 190px;
+    max-width: 100%;
+  }
+  .citrusStellaChewys__sliderTitle {
+    max-width: 190px;
+  }
+  .citrusStellaChewys_desktop__hide{
+    display: none;
+  }
+  #citrusStellaChewys__slider2 br{
+    display: none!important;
+  }
+}
+
+@media all and (max-width: 375px) {
+  .citrusStellaChewys__dogProduct,
+  .citrusStellaChewys__catProduct {
+    max-width: 195px;
+  }
+  .citrusStellaChewys__sliderTitle h1 {
+    font-size: 24px;
+    line-height: 23px;
+  }
+  #citrusStellaChewys__slider1.logo {
+    width: 145px;
+    position: relative;
+    top: -10px;
+  }
+}
