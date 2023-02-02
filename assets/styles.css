@@ -196,9 +196,6 @@ body {
   padding: 22px 60px 18px;
   cursor: pointer;
 }
-.citrusStellaChewys__sliderTitle a{
-  display: inline;
-}
 .citrusStellaChewys--productCommonCTA {
   margin: auto;
   margin-top: 30px;
@@ -601,8 +598,9 @@ button {
     padding: 0;
     text-decoration: underline;
   }
-  .citrusStellaChewys__sliderTitle a{
-    display: inline-flex!important;
+  .citrusStellaChewys__sliderCTABox{
+    display: flex;
+    flex-wrap: nowrap;
   }
   /*------- Slider end (768px)------*/
   /*------- Product start (768px)------*/
